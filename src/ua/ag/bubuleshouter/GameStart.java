@@ -1,5 +1,8 @@
 package ua.ag.bubuleshouter;
 
+import jssc.SerialPort;
+import ua.ag.bubuleshouter.MainScreen.GamePanel;
+
 import javax.swing.JFrame;
 /**
  * Created by Юрій on 29.08.2015.
@@ -11,6 +14,10 @@ public class GameStart {
         /*Random random = new Random();
         for (int i = 0; i < 10; i++)
             System.out.println(random.nextInt(4));//виводить випалкове число в діапазоні [0; 3]*/
+        COMPortWorker comPortWorker = new COMPortWorker();
+    }
+
+    public static void portWasOpen(SerialPort serialPort) {
         GamePanel panel = new GamePanel();
         JFrame StartFrame = new JFrame("BubleShooter");//створюємо фрейм і даємо йому назву
         StartFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//встановлюємо закриття програми по натисненню хрестика
