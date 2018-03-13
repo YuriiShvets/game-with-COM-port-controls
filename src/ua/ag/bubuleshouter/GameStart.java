@@ -6,6 +6,7 @@ import ua.ag.bubuleshouter.MainScreen.GamePanel;
 import javax.swing.JFrame;
 /**
  * Created by Юрій on 29.08.2015.
+ * @authoe Shvets
  */
 
 public class GameStart {

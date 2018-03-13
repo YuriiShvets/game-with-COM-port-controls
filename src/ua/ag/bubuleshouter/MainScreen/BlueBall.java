@@ -2,6 +2,7 @@ package ua.ag.bubuleshouter.MainScreen;
 
 /**
  * Created by Юрій on 17.09.2015.
+ * @author Shvets
  */
 import java.awt.Color;
 

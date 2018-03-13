@@ -7,6 +7,7 @@ import java.util.ArrayList;
 
 /**
  * Created by Юрій on 29.08.2015.
+ * @author Shvets
  */
 public class GamePanel extends JPanel implements Runnable {
 
@@ -37,7 +38,7 @@ public class GamePanel extends JPanel implements Runnable {
         requestFocus();                                                                             //робимо вікно активним
         addKeyListener(new Listeners());                                                            //додаємо слухачa
         FPS = 35;
-        weaponsMode = 1;
+        weaponsMode = 0;
         PauseOn = false;
         str = new STRING();
         numKillEnemis = 0;

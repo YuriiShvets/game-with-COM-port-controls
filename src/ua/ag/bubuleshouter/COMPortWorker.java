@@ -10,6 +10,7 @@ import java.awt.event.ActionListener;
 
 /**
  * Created by Shvets on 10.04.2017.
+ * @author Shvets
  */
 public class COMPortWorker extends JFrame {
 
